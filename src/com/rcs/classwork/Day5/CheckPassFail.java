@@ -8,9 +8,9 @@ public class CheckPassFail {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ludzu ievadiet atzīmi :");
         int atzime = sc.nextInt();
-        if (atzime >= 50){
+        if (atzime >= 50) {
             System.out.println("PASS");
-        }else {
+        } else {
             System.out.println("FAIL");
         }
         System.out.println("DONE");
