@@ -7,6 +7,7 @@ public class OddOrEven {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ievadi skaitli :");
         int skaitlis = sc.nextInt();
+        sc.close();
         if (skaitlis % 2 == 0) {
             System.out.println("Para skaitlis");
         } else {

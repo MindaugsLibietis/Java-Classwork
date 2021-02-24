@@ -8,6 +8,7 @@ public class CheckPassFail {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ludzu ievadiet atzīmi :");
         int atzime = sc.nextInt();
+        sc.close();
         if (atzime >= 50) {
             System.out.println("PASS");
         } else {
