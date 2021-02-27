@@ -23,6 +23,7 @@ public class ScannerExample {
             System.out.println(sc.nextLine());
             x++;
         }
+        sc.close();
         System.out.println("Punktu skaits: " + x);
     }
 }
