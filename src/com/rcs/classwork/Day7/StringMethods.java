@@ -14,7 +14,7 @@ public class StringMethods {
         }else if (teksts2.length() < teksts1.length()){
             System.out.println(teksts2 + teksts1.toUpperCase() + teksts2);
         }else {
-            System.out.println("Wrong input");
+            System.out.println(teksts2 + teksts1.toUpperCase() + teksts2);
         }
     }
 }
