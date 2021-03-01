@@ -11,8 +11,6 @@ public class StringMethods {
         String teksts2 = sc.nextLine();
         if (teksts1.length() < teksts2.length()){
             System.out.println(teksts1 + teksts2.toUpperCase() + teksts1);
-        }else if (teksts2.length() < teksts1.length()){
-            System.out.println(teksts2 + teksts1.toUpperCase() + teksts2);
         }else {
             System.out.println(teksts2 + teksts1.toUpperCase() + teksts2);
         }
