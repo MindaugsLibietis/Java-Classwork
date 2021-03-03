@@ -14,7 +14,7 @@ public class StringMethods {
         }else {
             System.out.println(teksts2 + teksts1.toUpperCase() + teksts2);
         }*/
-        
+
         /*System.out.println(teksts1.length() >= teksts2.length() ?
                         teksts2 + teksts1.toUpperCase() + teksts2 :
                         teksts1 + teksts2.toUpperCase() + teksts1);*/
