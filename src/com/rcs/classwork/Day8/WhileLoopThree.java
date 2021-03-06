@@ -9,7 +9,7 @@ public class WhileLoopThree {
         int sk = sc.nextInt();
         sc.close();
         int i = 1;
-        while (i <= 10) {
+        while (i <= sk) {
             System.out.println(sk + "*" + i + "=" + (sk * i));
             i++;
         }

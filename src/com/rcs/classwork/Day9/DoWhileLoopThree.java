@@ -12,6 +12,6 @@ public class DoWhileLoopThree {
         do {
             System.out.println(sk + "*" + i + "=" + (sk * i));
             i++;
-        } while (i <= 10);
+        } while (i <= sk);
     }
 }
