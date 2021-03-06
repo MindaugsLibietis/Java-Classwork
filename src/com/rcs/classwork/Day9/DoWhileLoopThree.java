@@ -10,7 +10,7 @@ public class DoWhileLoopThree {
         sc.close();
         int i = 1;
         do {
-            System.out.println("%d * %d = %d", sk, i, sk * i);
+            System.out.printf("%d * %d = %d\n", sk, i, sk * i);
             i++;
         } while (i <= sk);
     }
