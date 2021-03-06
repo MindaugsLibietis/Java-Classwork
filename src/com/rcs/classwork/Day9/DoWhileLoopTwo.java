@@ -10,8 +10,7 @@ public class DoWhileLoopTwo {
         sc.close();
         int i = 0;
         do {
-            System.out.println(Character.toUpperCase(text.charAt(i)));
-            i++;
+            System.out.println(Character.toUpperCase(text.charAt(i++)));
         } while (i < text.length());
 
     }
