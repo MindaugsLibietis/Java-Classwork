@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class ArrayAverage {
     public static float getAverage(int[] array) {
         int sum = 0;
-        for (int i = 0; i < array.length; i++){
-            sum += array[i];
+        for (int num : array){
+            sum += num;
         }
         return (float)sum / array.length;
     }
