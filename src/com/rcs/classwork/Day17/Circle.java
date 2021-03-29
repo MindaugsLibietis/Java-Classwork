@@ -7,11 +7,12 @@ public class Circle {
     double radius;
 
     public Circle(double rad, String clr){
-        this.Color = "Black";
         this.radius = rad;
+        this.Color = clr;
     }
     public Circle(double rad){
         this.radius = rad;
+        this.Color = "Black";
     }
     public double getArea() {
         return PI * radius * radius;
