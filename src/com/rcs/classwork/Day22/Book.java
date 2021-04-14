@@ -6,7 +6,7 @@ public class Book {
     private String name;
     private Author[] authors;
 
-    public Book (String name, Author[] authors) {
+    public Book(String name, Author[] authors) {
         this.name = name;
         this.authors = authors;
     }
@@ -19,11 +19,16 @@ public class Book {
         return authors;
     }
 
+    private String authorsToString() {
+        String result = "";
+        for (int i = 0; i < authors.length; i++) {
+            result += authors[i].toString() + (i < authors.length - 1 ? ", " : "");
+        }
+        return result;
+    }
+
     @Override
     public String toString() {
-        return "Book{" +
-                "name='" + name + '\'' +
-                ", authors=" + Arrays.toString(authors) +
-                '}';
+        return String.format("Book: %s\nAuthor: %s", name, authorsToString());
     }
 }
