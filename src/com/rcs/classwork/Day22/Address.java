@@ -13,35 +13,8 @@ public class Address {
         this.houseNr = houseNr;
     }
 
-    public String getCountry() {
-        return country;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public int getHouseNr() {
-        return houseNr;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public void setHouseNr(int houseNr) {
-        this.houseNr = houseNr;
+    @Override
+    public String toString() {
+        return String.format("%s, %s, %s %d", country, city, street, houseNr);
     }
 }
